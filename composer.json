@@ -1,0 +1,30 @@
+{
+    "name": "vsaude/prestadores",
+    "description": "Parte da aplicação responsavel para gerir prestadores de serviços",
+    "autoload": {
+        "psr-4": {
+            "Prestadores\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Munzambi-Miguel",
+            "email": "munzambi.miguel@gmail.com"
+        },
+        {
+            "name": "Alvaro-Carmo",
+            "email": "alvaro.carmo@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prestadores\\Providers\\PrestadoreProvider"
+            ]
+        }
+    },
+    "version": "1.0.0"
+}
