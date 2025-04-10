@@ -3,7 +3,8 @@
     "description": "Parte da aplicação responsavel para gerir prestadores de serviços",
     "autoload": {
         "psr-4": {
-            "Prestadores\\": "src/"
+            "Prestadores\\": "src/",
+            "Prestadores\\App\\": "src/app/"
         }
     },
     "authors": [
